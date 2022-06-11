@@ -4,17 +4,20 @@ using namespace std;
 
 int main()
 {
-	int num1, num2, ans;
+	int a, b;
+	double da, db;
 
-	cout << "1番目の整数を入力してください。\n";
-	cin >> num1;
+	cout << "2つの整数を入力してください。\n";
+	cin >> a >> b;
 
-	cout << "2番目の整数を入力してください。\n";
-	cin >> num2;
+	cout << "2つの少数を入力してください。\n";
+	cin >> da >> db;
 
-	ans = max(num1, num2);
+	int ans1 = max(a, b);
+	double ans2 = max(da, db);
 
-	cout << "最大値は " << ans << " です。\n";
+	cout << "整数の最大値は " << ans1 << " です。\n";
+	cout << "少数の最大値は " << ans2 << " です。\n";
 
 	return 0;
 }

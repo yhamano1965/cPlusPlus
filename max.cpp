@@ -13,3 +13,15 @@ int max(int x, int y)
 		return y;
 	}
 }
+
+double max(double x, double y)
+{
+	if (x > y)
+	{
+		return x;
+	}
+	else
+	{
+		return y;
+	}
+}
