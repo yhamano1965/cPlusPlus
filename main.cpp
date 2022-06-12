@@ -3,16 +3,23 @@ using namespace std;
 
 int main()
 {
-	int a;
+	int a = 5;
+	int b = 10;
 	int* pA;
 
-	a = 5;
 	pA = &a;
 
 	cout << "変数aの値は " << a << " です。\n";
 	cout << "変数aのアドレスは " << &a << " です。\n";
 	cout << "ポインタpAの値は " << pA << " です。\n";
-	cout << "*pAの値は " << *pA << " です。\n";
+	cout << "*pAの値は " << *pA << " です。\n\n";
+
+	pA = &b;
+
+	cout << "変数bの値は " << b << " です。\n";
+	cout << "変数bのアドレスは " << &b << " です。\n";
+	cout << "ポインタpAの値は " << pA << " です。\n";
+	cout << "*pAの値は " << *pA << " です。\n\n";
 
 	return 0;
 }
