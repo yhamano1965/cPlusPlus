@@ -2,11 +2,11 @@
 #include "swap.h"
 using namespace std;
 
-void swap(int x, int y)
+void swap(int* pX, int* pY)
 {
 	int temp;
 
-	temp = x;
-	x = y;
-	y = temp;
+	temp = *pX;
+	*pX = *pY;
+	*pY = temp;
 }
