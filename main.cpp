@@ -27,7 +27,7 @@ double avg(int* pT)
 
 	for (int i = 0; i < num; i++)
 	{
-		sum += *(pT+i);
+		sum += pT[i];
 	}
 
 	return sum / num;
