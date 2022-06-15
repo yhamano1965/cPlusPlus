@@ -3,7 +3,7 @@ using namespace std;
 
 const int num = 5;
 
-double avg(int t[]);
+double avg(int* pT);
 
 int main()
 {
@@ -21,13 +21,13 @@ int main()
 	return 0;
 }
 
-double avg(int t[])
+double avg(int* pT)
 {
 	double sum = 0;
 
 	for (int i = 0; i < num; i++)
 	{
-		sum += t[i];
+		sum += *(pT+i);
 	}
 
 	return sum / num;
