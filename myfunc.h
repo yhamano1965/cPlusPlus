@@ -11,4 +11,4 @@ class Car
 		void setNumGas(int n, double g);
 };
 
-void buy(Car c);
+void buy(Car* pC);
