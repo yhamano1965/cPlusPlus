@@ -22,7 +22,7 @@ void Car::setNumGas(int n, double g)
 	}
 }
 
-void buy(Car c)
+void buy(Car& c)
 {
 	int n = c.getNum();
 	double g = c.getGas();
