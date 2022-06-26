@@ -4,7 +4,9 @@ using namespace std;
 
 int main()
 {
-	Car car1;
+	Car car1 = {0, 0.0};
+
+	show(car1);
 
 	cout << "ナンバーは？\n";
 	cin >> car1.num;
@@ -12,7 +14,7 @@ int main()
 	cout << "ガソリン量は？\n";
 	cin >> car1.gas;
 
-	cout << "車のナンバーは" << car1.num << "：ガソリン量は" << car1.gas << "です。\n";
+	show(car1);
 
 	return 0;
 }
