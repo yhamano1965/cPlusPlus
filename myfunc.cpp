@@ -21,3 +21,11 @@ void Car::setNumGas(int n, double g)
 		cout << "ガソリン量を変更できませんでした。\n";
 	}
 }
+
+void buy(Car c)
+{
+	int n = c.getNum();
+	double g = c.getGas();
+
+	cout << "ナンバー" << n << "、ガソリン量" << g << "の車を購入しました。\n";
+}
