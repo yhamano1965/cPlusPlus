@@ -4,4 +4,4 @@ struct Car
 	double gas;
 };
 
-void show(Car c);
+void show(Car* pC);

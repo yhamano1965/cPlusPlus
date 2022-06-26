@@ -6,7 +6,7 @@ int main()
 {
 	Car car1 = {0, 0.0};
 
-	show(car1);
+	show(&car1);
 
 	cout << "ナンバーは？\n";
 	cin >> car1.num;
@@ -14,7 +14,7 @@ int main()
 	cout << "ガソリン量は？\n";
 	cin >> car1.gas;
 
-	show(car1);
+	show(&car1);
 
 	return 0;
 }
