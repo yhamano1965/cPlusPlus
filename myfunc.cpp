@@ -2,7 +2,7 @@
 #include "myfunc.h"
 using namespace std;
 
-void show(Car c)
+void Car::show()
 {
-	cout << "車のナンバーは" << c.num << "：ガソリン量は" << c.gas << "です。\n";
+	cout << "車のナンバーは" << num << "：ガソリン量は" << gas << "です。\n";
 }

@@ -4,17 +4,12 @@ using namespace std;
 
 int main()
 {
-	Car car1 = {0, 0.0};
+	Car car1;
 
-	show(car1);
+	car1.num = 1234;
+	car1.gas = 25.5;
 
-	cout << "ナンバーは？\n";
-	cin >> car1.num;
-
-	cout << "ガソリン量は？\n";
-	cin >> car1.gas;
-
-	show(car1);
+	car1.show();
 
 	return 0;
 }

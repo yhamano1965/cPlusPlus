@@ -1,7 +1,7 @@
-struct Car
+class Car
 {
-	int num;
-	double gas;
+	public:
+		int num;
+		double gas;
+		void show();
 };
-
-void show(Car c);
