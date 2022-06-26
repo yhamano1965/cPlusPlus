@@ -4,15 +4,17 @@ using namespace std;
 
 int main()
 {
-	Car car1;
+	Car car1 = {1234, 25.5};
+	Car car2 = {4567, 52.2};
 
-	cout << "ナンバーは？\n";
-	cin >> car1.num;
+	cout << "car1のナンバーは" << car1.num << "：ガソリン量は" << car1.gas << "です。\n";
+	cout << "car2のナンバーは" << car2.num << "：ガソリン量は" << car2.gas << "です。\n";
 
-	cout << "ガソリン量は？\n";
-	cin >> car1.gas;
+	car2 = car1;
 
-	cout << "車のナンバーは" << car1.num << "：ガソリン量は" << car1.gas << "です。\n";
+	cout << "car1をcar2に代入しました。\n";
+	cout << "car2のナンバーは" << car2.num << "：ガソリン量は" << car2.gas << "です。\n";
+
 
 	return 0;
 }
