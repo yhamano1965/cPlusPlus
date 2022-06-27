@@ -2,18 +2,26 @@
 #include "myfunc.h"
 using namespace std;
 
+int Car::sum = 0;
+
 Car::Car()
 {
 	num = 0;
 	gas = 0.0;
+	sum++;
 	cout << "車を作成しました。\n";
 }
 
-Car::Car(int n, double g)
+void Car::showSum()
+{
+	cout << "車は全部で" << sum << "台あります。\n";
+}
+
+void Car::setCar(int n, double g)
 {
 	num = n;
 	gas = g;
-	cout << "ナンバー" << num << "ガソリン量" << gas << "の車を作成しました。\n";
+	cout << "ナンバーを" << num << "にガソリン量を" << gas << "にしました。\n";
 }
 
 void Car::show()
