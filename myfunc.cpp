@@ -2,13 +2,6 @@
 #include "myfunc.h"
 using namespace std;
 
-Car::Car()
-{
-	num = 0;
-	gas = 0.0;
-	cout << "ŽÔ‚ðì¬‚µ‚Ü‚µ‚½B\n";
-}
-
 Car::Car(int n, double g)
 {
 	num = n;

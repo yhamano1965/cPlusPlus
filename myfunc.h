@@ -4,7 +4,6 @@ class Car
 		int num;
 		double gas;
 	public:
-		Car();
-		Car(int n, double g);
+		Car(int n=0, double g=0);
 		void show();
 };

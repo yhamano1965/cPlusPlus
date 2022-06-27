@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-	Car mycars[3];
+	Car car1;
+	Car car2(1234, 20.5);
 
 	return 0;
 }
