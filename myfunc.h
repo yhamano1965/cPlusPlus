@@ -4,9 +4,16 @@ class Car
 		int num;
 		double gas;
 	public:
-		static int sum;
 		Car();
 		void setCar(int n, double g);
 		void show();
-		static void showSum();
+};
+
+class RacingCar : public Car
+{
+private:
+	int course;
+public:
+	RacingCar();
+	void setCourse(int c);
 };
