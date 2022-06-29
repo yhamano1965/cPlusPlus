@@ -6,4 +6,5 @@ class RacingCar : public Car
 		RacingCar();
 		RacingCar(int n, double g, int c);
 		void setCourse(int c);
+		void show();
 };

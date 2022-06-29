@@ -1,6 +1,6 @@
 class Car
 {
-	private:
+	protected:
 		int num;
 		double gas;
 	public:
