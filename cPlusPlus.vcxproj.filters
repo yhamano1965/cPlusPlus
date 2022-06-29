@@ -2,9 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="myfunc.cpp" />
+    <ClCompile Include="car.cpp" />
+    <ClCompile Include="rccar.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="myfunc.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="rccar.h" />
   </ItemGroup>
 </Project>

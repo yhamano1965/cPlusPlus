@@ -5,15 +5,7 @@ class Car
 		double gas;
 	public:
 		Car();
+		Car(int n, double g);
 		void setCar(int n, double g);
 		void show();
-};
-
-class RacingCar : public Car
-{
-private:
-	int course;
-public:
-	RacingCar();
-	void setCourse(int c);
 };

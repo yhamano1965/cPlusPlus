@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="myfunc.cpp" />
+    <ClCompile Include="car.cpp" />
+    <ClCompile Include="rccar.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="myfunc.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="rccar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
