@@ -11,15 +11,12 @@ int main()
 	Car car1(1234, 20.5);
 	pVc[0] = &car1;
 	pVc[0]->setSpeed(60);
+	cout << typeid(*pVc[0]).name() << "‚Å‚·B\n\n";
 
 	Plane pln1(232);
 	pVc[1] = &pln1;
 	pVc[1]->setSpeed(500);
-
-	for (int i = 0; i < 2; i++)
-	{
-		pVc[i]->show();
-	}
+	cout << typeid(*pVc[1]).name() << "‚Å‚·B\n\n";
 
 	return 0;
 }
