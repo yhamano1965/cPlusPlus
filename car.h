@@ -7,5 +7,5 @@ class Car
 		Car();
 		Car(int n, double g);
 		void setCar(int n, double g);
-		void show();
+		virtual void show();
 };
