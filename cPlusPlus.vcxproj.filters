@@ -3,10 +3,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="car.cpp" />
-    <ClCompile Include="rccar.cpp" />
+    <ClCompile Include="plane.cpp" />
+    <ClCompile Include="vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.h" />
-    <ClInclude Include="rccar.h" />
+    <ClInclude Include="plane.h" />
+    <ClInclude Include="vehicle.h" />
   </ItemGroup>
 </Project>

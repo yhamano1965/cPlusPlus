@@ -1,24 +1,24 @@
 #include <iostream>	
+#include "vehicle.h"
 #include "car.h"
-#include "rccar.h"
+#include "plane.h"
 using namespace std;
 
 int main()
 {
-	Car* pCars[2];
+	Vehicle* pVc[2];
 
-	Car car1;
-	RacingCar rccar1;
+	Car car1(1234, 20.5);
+	pVc[0] = &car1;
+	pVc[0]->setSpeed(60);
 
-	pCars[0] = &car1;
-	pCars[0]->setCar(1234, 20.5);
-
-	pCars[1] = &rccar1;
-	pCars[1]->setCar(4567, 30.5);
+	Plane pln1(232);
+	pVc[1] = &pln1;
+	pVc[1]->setSpeed(500);
 
 	for (int i = 0; i < 2; i++)
 	{
-		pCars[i]->show();
+		pVc[i]->show();
 	}
 
 	return 0;

@@ -1,11 +1,9 @@
-class Car
+class Car : public Vehicle
 {
 	protected:
 		int num;
 		double gas;
 	public:
-		Car();
 		Car(int n, double g);
-		void setCar(int n, double g);
-		virtual void show();
+		void show();
 };
