@@ -8,16 +8,16 @@ int main()
 {
 	Derived drv0;
 
-	drv0.showBs1();
-	drv0.showBs2();
+	drv0.Base1::showBs();
+	drv0.Base2::showBs();
 	drv0.showDr();
 
 	cout << "\n";
 
 	Derived drv1(1, 2, 3);
 
-	drv1.showBs1();
-	drv1.showBs2();
+	drv1.Base1::showBs();
+	drv1.Base2::showBs();
 	drv1.showDr();
 
 	return 0;

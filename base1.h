@@ -5,5 +5,5 @@ class Base1
 	public:
 		Base1();
 		Base1(int b1);
-		void showBs1();
+		void showBs();
 };

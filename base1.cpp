@@ -14,7 +14,7 @@ Base1::Base1(int b1)
 	bs1 = b1;
 }
 
-void Base1::showBs1()
+void Base1::showBs()
 {
 	cout << "bs1‚Í" << bs1 << "‚Å‚·B(class Base1)\n";
 }
