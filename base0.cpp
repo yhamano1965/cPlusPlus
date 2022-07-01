@@ -5,17 +5,17 @@
 #include "derive.h"
 using namespace std;
 
-Base2::Base2()
+Base0::Base0()
 {
-	bs2 = 0;
+	bs0 = 0;
 }
 
-Base2::Base2(int b2)
+Base0::Base0(int b0)
 {
-	bs2 = b2;
+	bs0 = b0;
 }
 
-void Base2::showBs2()
+void Base0::showBs0()
 {
-	cout << "bs2‚Í" << bs2 << "‚Å‚·B(class Base2)\n";
+	cout << "bs0‚Í" << bs0 << "‚Å‚·B(class Base0)\n";
 }

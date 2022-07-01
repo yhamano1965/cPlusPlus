@@ -1,4 +1,6 @@
-class Base1
+#pragma once
+
+class Base1 : public virtual Base0
 {
 	protected:
 		int bs1;

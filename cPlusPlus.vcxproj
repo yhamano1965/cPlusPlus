@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="base0.cpp" />
     <ClCompile Include="base1.cpp" />
     <ClCompile Include="base2.cpp" />
     <ClCompile Include="derive.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="base0.h" />
     <ClInclude Include="base1.h" />
     <ClInclude Include="base2.h" />
     <ClInclude Include="derive.h" />

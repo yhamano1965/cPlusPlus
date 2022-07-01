@@ -1,4 +1,5 @@
 #include <iostream>	
+#include "base0.h"
 #include "base1.h"
 #include "base2.h"
 #include "derive.h"
